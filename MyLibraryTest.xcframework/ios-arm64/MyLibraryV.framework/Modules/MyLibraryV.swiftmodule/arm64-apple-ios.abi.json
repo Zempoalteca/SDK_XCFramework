@@ -1,0 +1,484 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyLibraryV",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MyLibraryAdvance",
+        "printedName": "MyLibraryAdvance",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MyLibraryAdvance",
+                "printedName": "MyLibraryV.MyLibraryAdvance",
+                "usr": "s:10MyLibraryV0aB7AdvanceC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyLibraryEnvironment",
+                "printedName": "MyLibraryV.MyLibraryEnvironment",
+                "usr": "s:10MyLibraryV0aB11EnvironmentO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10MyLibraryV0aB7AdvanceC6configAcA0aB11EnvironmentO_tcfc",
+            "mangledName": "$s10MyLibraryV0aB7AdvanceC6configAcA0aB11EnvironmentO_tcfc",
+            "moduleName": "MyLibraryV",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "sayHello",
+            "printedName": "sayHello()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MyLibraryV0aB7AdvanceC8sayHelloSSyF",
+            "mangledName": "$s10MyLibraryV0aB7AdvanceC8sayHelloSSyF",
+            "moduleName": "MyLibraryV",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10MyLibraryV0aB7AdvanceC",
+        "mangledName": "$s10MyLibraryV0aB7AdvanceC",
+        "moduleName": "MyLibraryV",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyLibraryV",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MyLibraryBasic",
+        "printedName": "MyLibraryBasic",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MyLibraryBasic",
+                "printedName": "MyLibraryV.MyLibraryBasic",
+                "usr": "s:10MyLibraryV0aB5BasicC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyLibraryEnvironment",
+                "printedName": "MyLibraryV.MyLibraryEnvironment",
+                "usr": "s:10MyLibraryV0aB11EnvironmentO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10MyLibraryV0aB5BasicC6configAcA0aB11EnvironmentO_tcfc",
+            "mangledName": "$s10MyLibraryV0aB5BasicC6configAcA0aB11EnvironmentO_tcfc",
+            "moduleName": "MyLibraryV",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "sayHello",
+            "printedName": "sayHello()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MyLibraryV0aB5BasicC8sayHelloSSyF",
+            "mangledName": "$s10MyLibraryV0aB5BasicC8sayHelloSSyF",
+            "moduleName": "MyLibraryV",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10MyLibraryV0aB5BasicC",
+        "mangledName": "$s10MyLibraryV0aB5BasicC",
+        "moduleName": "MyLibraryV",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyLibraryV",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MyLibraryEnvironment",
+        "printedName": "MyLibraryEnvironment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dev",
+            "printedName": "dev",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MyLibraryV.MyLibraryEnvironment.Type) -> MyLibraryV.MyLibraryEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MyLibraryEnvironment",
+                    "printedName": "MyLibraryV.MyLibraryEnvironment",
+                    "usr": "s:10MyLibraryV0aB11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MyLibraryV.MyLibraryEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MyLibraryEnvironment",
+                        "printedName": "MyLibraryV.MyLibraryEnvironment",
+                        "usr": "s:10MyLibraryV0aB11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MyLibraryV0aB11EnvironmentO3devyA2CmF",
+            "mangledName": "$s10MyLibraryV0aB11EnvironmentO3devyA2CmF",
+            "moduleName": "MyLibraryV"
+          },
+          {
+            "kind": "Var",
+            "name": "uat",
+            "printedName": "uat",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MyLibraryV.MyLibraryEnvironment.Type) -> MyLibraryV.MyLibraryEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MyLibraryEnvironment",
+                    "printedName": "MyLibraryV.MyLibraryEnvironment",
+                    "usr": "s:10MyLibraryV0aB11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MyLibraryV.MyLibraryEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MyLibraryEnvironment",
+                        "printedName": "MyLibraryV.MyLibraryEnvironment",
+                        "usr": "s:10MyLibraryV0aB11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MyLibraryV0aB11EnvironmentO3uatyA2CmF",
+            "mangledName": "$s10MyLibraryV0aB11EnvironmentO3uatyA2CmF",
+            "moduleName": "MyLibraryV"
+          },
+          {
+            "kind": "Var",
+            "name": "prod",
+            "printedName": "prod",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MyLibraryV.MyLibraryEnvironment.Type) -> MyLibraryV.MyLibraryEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MyLibraryEnvironment",
+                    "printedName": "MyLibraryV.MyLibraryEnvironment",
+                    "usr": "s:10MyLibraryV0aB11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MyLibraryV.MyLibraryEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MyLibraryEnvironment",
+                        "printedName": "MyLibraryV.MyLibraryEnvironment",
+                        "usr": "s:10MyLibraryV0aB11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MyLibraryV0aB11EnvironmentO4prodyA2CmF",
+            "mangledName": "$s10MyLibraryV0aB11EnvironmentO4prodyA2CmF",
+            "moduleName": "MyLibraryV"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyLibraryEnvironment",
+                "printedName": "MyLibraryV.MyLibraryEnvironment",
+                "usr": "s:10MyLibraryV0aB11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyLibraryEnvironment",
+                "printedName": "MyLibraryV.MyLibraryEnvironment",
+                "usr": "s:10MyLibraryV0aB11EnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MyLibraryV0aB11EnvironmentO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10MyLibraryV0aB11EnvironmentO2eeoiySbAC_ACtFZ",
+            "moduleName": "MyLibraryV",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MyLibraryV0aB11EnvironmentO9hashValueSivp",
+            "mangledName": "$s10MyLibraryV0aB11EnvironmentO9hashValueSivp",
+            "moduleName": "MyLibraryV",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MyLibraryV0aB11EnvironmentO9hashValueSivg",
+                "mangledName": "$s10MyLibraryV0aB11EnvironmentO9hashValueSivg",
+                "moduleName": "MyLibraryV",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MyLibraryV0aB11EnvironmentO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s10MyLibraryV0aB11EnvironmentO4hash4intoys6HasherVz_tF",
+            "moduleName": "MyLibraryV",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10MyLibraryV0aB11EnvironmentO",
+        "mangledName": "$s10MyLibraryV0aB11EnvironmentO",
+        "moduleName": "MyLibraryV",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/gzempoalteca\/Documents\/Training_iOS\/Packages\/VISA\/MyLibraryV\/MyLibraryV\/Advance\/MyLibraryAdvance.swift",
+      "kind": "StringLiteral",
+      "offset": 430,
+      "length": 83,
+      "value": "\"The advance Library on \""
+    },
+    {
+      "filePath": "\/Users\/gzempoalteca\/Documents\/Training_iOS\/Packages\/VISA\/MyLibraryV\/MyLibraryV\/Advance\/MyLibraryAdvance.swift",
+      "kind": "StringLiteral",
+      "offset": 475,
+      "length": 4,
+      "value": "\" says: \""
+    },
+    {
+      "filePath": "\/Users\/gzempoalteca\/Documents\/Training_iOS\/Packages\/VISA\/MyLibraryV\/MyLibraryV\/Advance\/MyLibraryAdvance.swift",
+      "kind": "StringLiteral",
+      "offset": 511,
+      "length": 1,
+      "value": "\"!\""
+    },
+    {
+      "filePath": "\/Users\/gzempoalteca\/Documents\/Training_iOS\/Packages\/VISA\/MyLibraryV\/MyLibraryV\/Basic\/MyLibraryBasic.swift",
+      "kind": "StringLiteral",
+      "offset": 426,
+      "length": 81,
+      "value": "\"The basic Library on \""
+    },
+    {
+      "filePath": "\/Users\/gzempoalteca\/Documents\/Training_iOS\/Packages\/VISA\/MyLibraryV\/MyLibraryV\/Basic\/MyLibraryBasic.swift",
+      "kind": "StringLiteral",
+      "offset": 469,
+      "length": 4,
+      "value": "\" says: \""
+    },
+    {
+      "filePath": "\/Users\/gzempoalteca\/Documents\/Training_iOS\/Packages\/VISA\/MyLibraryV\/MyLibraryV\/Basic\/MyLibraryBasic.swift",
+      "kind": "StringLiteral",
+      "offset": 505,
+      "length": 1,
+      "value": "\"!\""
+    },
+    {
+      "filePath": "\/Users\/gzempoalteca\/Documents\/Training_iOS\/Packages\/VISA\/MyLibraryV\/MyLibraryV\/Shared\/MyLibraryShared.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 5,
+      "value": "\"dev\""
+    },
+    {
+      "filePath": "\/Users\/gzempoalteca\/Documents\/Training_iOS\/Packages\/VISA\/MyLibraryV\/MyLibraryV\/Shared\/MyLibraryShared.swift",
+      "kind": "StringLiteral",
+      "offset": 336,
+      "length": 5,
+      "value": "\"uat\""
+    },
+    {
+      "filePath": "\/Users\/gzempoalteca\/Documents\/Training_iOS\/Packages\/VISA\/MyLibraryV\/MyLibraryV\/Shared\/MyLibraryShared.swift",
+      "kind": "StringLiteral",
+      "offset": 362,
+      "length": 6,
+      "value": "\"prod\""
+    },
+    {
+      "filePath": "\/Users\/gzempoalteca\/Documents\/Training_iOS\/Packages\/VISA\/MyLibraryV\/MyLibraryV\/Shared\/MyLibraryShared.swift",
+      "kind": "StringLiteral",
+      "offset": 485,
+      "length": 32,
+      "value": "\"This is a common functionality\""
+    },
+    {
+      "filePath": "\/Users\/gzempoalteca\/Documents\/Training_iOS\/Packages\/VISA\/MyLibraryV\/MyLibraryV\/Shared\/MyLibraryShared.swift",
+      "kind": "StringLiteral",
+      "offset": 583,
+      "length": 10,
+      "value": "\"👋🏼\""
+    }
+  ]
+}

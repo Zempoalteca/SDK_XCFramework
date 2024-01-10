@@ -1,0 +1,11 @@
+framework module MyLibraryV {
+  umbrella header "MyLibraryV.h"
+  export *
+
+  module * { export * }
+}
+
+module MyLibraryV.Swift {
+  header "MyLibraryV-Swift.h"
+  requires objc
+}
